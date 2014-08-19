@@ -9,7 +9,7 @@ public class Triangulo extends Poligono{
 	@Override
 	public double getArea() {
 		double areaTriangulo;
-		areaTriangulo = (Math.pow(lado, 2) / 2);
+		areaTriangulo = (lado * Math.sqrt(3) / 2);
 		 return areaTriangulo;
 	}
 }
